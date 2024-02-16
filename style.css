@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFF5FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 60vh;
+    width: 50vh;
+    background-color: #bdd5ea;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#card h1{
+    padding: 20px;
+    text-decoration: underline;
+}
+#amount{
+    padding: 30px;
+}
+#amount input{
+    height: 30px;
+    width: 250px;
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    font-size: large;
+    font-weight: 700;
+}
+#fromto{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#from select{
+    display: flex;
+    align-items: center;
+}
+ #to select{
+    display: flex;
+    align-items: center;
+}
+
+select{
+    padding: 5px;
+    margin-left: 3px;
+    border: 2px solid gray;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#result{
+    text-align: center;
+}
+
+#submit{
+    padding: 10px 60px;
+    margin: 20px;
+    margin-left: 4.4rem;
+    background-color: rgb(193, 99, 99);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reverse{
+    font-size: larger;
+    padding-top: 2.7rem;
+}
+
